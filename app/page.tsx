@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <div className="back-image">
-        <main className="bg-gradient-to-t from-black via-transparent to-black flex min-h-[45rem] flex-col items-center justify-between p-4">
+        <main className="bg-gradient-to-t from-black via-transparent to-black flex min-h-[30rem]  sm:min-h-[45rem] flex-col items-center justify-between p-4">
           <Header />
         </main>
       </div>

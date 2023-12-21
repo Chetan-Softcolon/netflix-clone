@@ -16,7 +16,7 @@ const Header = () => {
         <Box
           sx={{
             width: {
-              xs: "6rem",
+              xs: "7rem",
               sm: "8rem",
               md: "10rem",
               lg: "10rem",
@@ -92,12 +92,17 @@ const styles = {
     textTransform: "capitalize",
     fontweight: "bold",
     height: {
-      xs: "2rem",
+      xs: "1.8rem",
       sm: "2rem",
       md: "2rem",
       lg: "2rem",
     },
-    padding: "0 1rem",
+    padding: {
+      xs: "0 0.5rem",
+      sm: "0 1rem",
+      md: "0 1rem",
+      lg: "0 1rem",
+    },
     bgcolor: "#e50914 !important",
     fontSize: "1rem",
     "&:hover": {
@@ -205,7 +210,7 @@ const styles = {
   },
   buttonText: {
     fontSize: {
-      xs: "1.2rem",
+      xs: "1rem",
       sm: "1.2rem",
       md: "1.5rem",
       lg: "1.5rem",
