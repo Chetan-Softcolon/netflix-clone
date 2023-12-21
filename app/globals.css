@@ -24,4 +24,102 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: "border-box";
+}
+
+.image-zoom {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-zoom img {
+  transition: transform 0.3s ease;
+}
+
+.image-zoom:hover img {
+  transform: scale(1.1);
+}
+
+.back-image {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-48b7-854d-ca055a84fb4f/5b22968d-b94f-44ec-bea3-45dcf457f29e/IN-en-20231204-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+.image-color {
+  /* background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  ); */
+  background: rgb(0 0 0 / 40%);
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: rgb(var(--foreground-rgb)) !important;
+}
+
+.css-e4w4as-MuiFormLabel-root-MuiInputLabel-root {
+  color: rgb(var(--foreground-rgb)) !important;
+}
+
+.css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: rgb(var(--foreground-rgb)) !important;
+}
+
+.css-1mr9xkq-MuiButtonBase-root-MuiButton-root {
+  text-transform: none !important;
+}
+
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+  color: rgb(var(--foreground-rgb)) !important;
+}
+
+.css-1615r9s-MuiPaper-root-MuiAccordion-root:last-of-type {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.css-1615r9s-MuiPaper-root-MuiAccordion-root:last-of-type {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.css-1615r9s-MuiPaper-root-MuiAccordion-root:last-of-type {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.css-1615r9s-MuiPaper-root-MuiAccordion-root:first-of-type {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.css-mc2zu8-MuiPaper-root-MuiAccordion-root:last-of-type {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.css-mc2zu8-MuiPaper-root-MuiAccordion-root:first-of-type {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.css-tc1dkg-MuiTypography-root-MuiLink-root {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 100% !important;
+  width: 100% !important;
+  padding: 0.3rem 0.8rem !important;
 }
